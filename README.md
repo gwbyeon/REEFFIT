@@ -16,7 +16,7 @@ For system-wide installation, you must have permissions and use with `sudo`.
 
 **REEFFIT** requires the following *Python* packages as dependencies, all of which can be installed through [`pip`](https://pip.pypa.io/).
 ```json
-cvxopt >= 1.1.6
+cvxopt == 1.1.6
 0.11 >= joblib >= 0.5.4
 matplotlib >= 1.1.1
 numpy >= 1.6.1
@@ -26,7 +26,7 @@ pymc >= 2.2
 rdatkit >= 1.0.4
 ```
 
-* To use the --njobs parameter currently, joblib package version needs to be 0.11 or less.
+* To use the --njobs parameter currently, joblib package version needs to be 0.11 or less and cvxopt version needs to be 1.1.6
 
 * Note that you should have `RDATKit` installed and properly set up as well (see https://github.com/ribokit/RDATKit)
 
